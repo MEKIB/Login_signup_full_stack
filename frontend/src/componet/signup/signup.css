@@ -1,0 +1,72 @@
+.LoginForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 100px auto;
+    padding: 50px;
+    background-color: aliceblue;
+    width: 500px;
+}
+.LoginForm h1{
+    text-align: center;
+    font-style: italic;
+    background-image: linear-gradient(258deg,blue,green);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    border: 2px solid wheat;
+    padding: 50px;
+    background-color: silver;
+}
+.element{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 10px 0;
+}
+.element label{
+    margin: 10px 0;
+    font-size: 20px;
+}
+.element input{
+    font-size: 16px;
+    font-weight: bold;
+    padding: 5px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+button{
+    border: 2px solid weat;
+    font-size: 20px;
+    background-image: linear-gradient(200deg,red, green);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 5px 0;
+    border-radius: 10px;
+    background-color: antiquewhite;
+    transition: all 2s ease;
+    cursor: pointer;
+}
+button:hover{
+    background-image: linear-gradient(200deg,blue, green);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.container p{
+    font-size:20px;
+    font-style: italic;
+}
+.container p span{
+    font-size: 22px;
+    font-weight: bolder; 
+}
